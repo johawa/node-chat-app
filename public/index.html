@@ -11,18 +11,7 @@
 
 
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-        //Set up Socket.io for Client Side
-        var socket = io();
-
-        socket.on('connect', () => {
-            console.log('connected to server');
-        });
-
-        //Set up disconnect Eventlistener for Client Side
-        socket.on('disconnect', () => {
-            console.log('disconnected');
-        });
+    <script src="/js/index.js">
     </script>
 </body>
 
